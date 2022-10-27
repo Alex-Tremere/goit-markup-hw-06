@@ -780,11 +780,14 @@ section {
   fill: var(--normal-color);
 }
 
+.subscribe {
+  margin-left: auto;
+}
+
 .js-subscribe {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin-left: 93px;
 }
 
 .subscribe-subtitle {
@@ -944,6 +947,7 @@ section {
   padding-left: 42px;
   border: 1px solid #21212133;
   border-radius: 4px;
+  outline: none;
   transition-property: fill, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -989,9 +993,10 @@ section {
   display: block;
   margin-bottom: 30px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--minor-color);
 }
